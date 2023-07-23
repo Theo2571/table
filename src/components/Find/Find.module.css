@@ -1,0 +1,22 @@
+.find {
+    position: relative;
+}
+.search {
+    background: #5A5C66;
+    outline:none;
+    border: none;
+    width: 350px;
+    color: #ffff;
+    height: 35px;
+    padding: 0 35px 0 25px;
+    margin-bottom: 25px;
+}
+.search::placeholder {
+    color: #B2B7BF
+}
+.searchImg {
+    cursor: pointer;
+    right: 30px;
+    top: 5px;
+    position: relative;
+}

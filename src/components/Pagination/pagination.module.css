@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    gap: 40%;
+}
+.buttonBack {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
+.pagination {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    cursor: pointer;
+
+}
+.buttonNext {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
+.paginationButton {
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+.pagination-button.active {
+    color: #7EBC3C;
+    font-weight: 600;
+}
